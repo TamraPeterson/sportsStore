@@ -20,7 +20,7 @@ export class Sports {
             alt="badminton">
           <h6>$${this.price}</h6>
           <h6>In Stock: ${this.quantity}</h6>
-          <button class="btn btn-danger" onclick="buySport('${this.id}')">Purchase</button>
+          <button class="btn btn-danger" onclick="app.sportsController.buySport('${this.id}')">Purchase</button>
         </div>
 `
 
